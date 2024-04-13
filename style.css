@@ -1,0 +1,25 @@
+:root {
+    --background-color: #161616;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background-color);
+    height: 100vh;
+    width: 100vw;
+}
+
+#dvd {
+    width: max-content;
+    text-align: center;
+    background-color: red;
+    color: var(--background-color);
+    padding: 0 0.3rem;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
